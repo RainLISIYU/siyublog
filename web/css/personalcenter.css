@@ -1,0 +1,51 @@
+.personal-message-body{
+    border: white 1px solid;
+    width: 1200px;
+    background: floralwhite;
+    height: 680px;
+    margin: 10px auto 0;
+}
+.personal-center-title{
+    top: 0;
+    width: 1200px;
+    height: 150px;
+    overflow: hidden;
+    background: darkgrey;
+    margin-top: 0;
+    text-decoration: none;
+    position: fixed;
+    border-radius: 10px;
+}
+.personal-center-title a{
+    color: #000;
+}
+.personal-center-title a:hover{
+    color: #fff;
+}
+.personal-name{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.personal-center-title-buttons{
+    margin-top: 60px;
+    margin-right: 50px;
+}
+.essay-manage{
+    cursor: pointer;
+    float: right;
+    width: 80px;
+    height: 30px;
+}
+.essay-manage:hover{
+    color: white;
+}
+.personal-message-manage{
+    cursor: pointer;
+    float: right;
+    width: 100px;
+    height: 30px;
+}
+.personal-message-manage:hover{
+    color: white;
+}

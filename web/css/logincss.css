@@ -1,0 +1,98 @@
+.head{
+    height: 70px;
+    width: 1200px;
+    background: blue;
+    overflow: hidden;
+    margin: 20px auto 0;
+}
+.head #tile{
+    overflow: hidden;
+    font-size: 30px;
+    line-height: 70px;
+    float: left;
+}
+
+.head #tile a:hover{
+    color: white;
+}
+.head #tile a{
+    color: black;
+    text-decoration-line: none;
+}
+.body{
+    width: 1200px;
+    height: 500px;
+    background: antiquewhite;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.body .radio{
+    overflow: hidden;
+    width: 500px;
+    height: 40px;
+    margin: 50px auto 30px;
+    display: block;
+    background-color: #000000;
+}
+
+.body .radio .radio1{
+    overflow: hidden;
+    margin-left: 200px;
+    width: 200px;
+    color: white;
+    display: inline;
+}
+.body .radio .radio1 span{
+    font-size: 24px;
+    line-height: 40px;
+}
+.body ul{
+    width: 500px;
+    margin: 50px auto 0 ;
+    border: antiquewhite 1px solid;
+    background: antiquewhite;
+    list-style: none;
+    padding-left: 0;
+}
+.body ul li{
+    /*border: black 1px solid;*/
+    width: 500px;
+    height: 40px;
+    margin: 50px auto;
+}
+.body ul li .q{
+    width: 80px;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: right;
+    margin-left: 100px;
+}
+.body ul li .h input{
+    height: 20px;
+}
+.body .login_body{
+    border-radius: 10px;
+    box-shadow:2px 2px 10px #909090;
+    overflow: hidden;
+    margin: 40px auto 10px;
+    width: 700px;
+    height: 450px;
+    background: white;
+}
+.body .button{
+    margin-left: 248px;
+}
+.body .registe{
+    margin-left: 455px;
+}
+
+.body .button input{
+    font-size: 18px;
+    color: #fff;
+    font-family: "Arial Black";
+    width: 200px;
+    height: 30px;
+    background: aqua;
+    border-radius: 10px;
+}
