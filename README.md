@@ -1,3 +1,4 @@
 # siyublog
 a simple bolg
-js+css+jsp+servlet
+前端：js+css
+后端：jsp+servlet+jdbc
